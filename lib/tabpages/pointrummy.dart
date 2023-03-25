@@ -60,8 +60,13 @@ class _PointRummyPageState extends State<PointRummyPage> {
                       height: 150,
                       width: 16,
                       decoration: BoxDecoration(
-                          color: Colors.red,
-                          border: Border.all(color: Colors.red)),
+                        color: Colors.red,
+                        border: Border.all(color: Colors.red),
+                        borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(10),
+                          bottomLeft: Radius.circular(10),
+                        ),
+                      ),
                       child: Center(
                         child: RotatedBox(
                           quarterTurns: 3,
@@ -87,6 +92,10 @@ class _PointRummyPageState extends State<PointRummyPage> {
                       decoration: BoxDecoration(
                         color: Colors.grey,
                         border: Border.all(color: Colors.red, width: 4),
+                        borderRadius: BorderRadius.only(
+                          topRight: Radius.circular(10),
+                          bottomRight: Radius.circular(10),
+                        ),
                       ),
                     )
                   ],
@@ -100,8 +109,13 @@ class _PointRummyPageState extends State<PointRummyPage> {
                       height: 150,
                       width: 16,
                       decoration: BoxDecoration(
-                          color: Colors.red,
-                          border: Border.all(color: Colors.red)),
+                        color: Colors.red,
+                        border: Border.all(color: Colors.red),
+                        borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(10),
+                          bottomLeft: Radius.circular(10),
+                        ),
+                      ),
                       child: Center(
                         child: RotatedBox(
                           quarterTurns: 3,
@@ -127,6 +141,10 @@ class _PointRummyPageState extends State<PointRummyPage> {
                       decoration: BoxDecoration(
                         color: Colors.grey,
                         border: Border.all(color: Colors.red, width: 4),
+                        borderRadius: BorderRadius.only(
+                          topRight: Radius.circular(10),
+                          bottomRight: Radius.circular(10),
+                        ),
                       ),
                     )
                   ],
@@ -140,8 +158,13 @@ class _PointRummyPageState extends State<PointRummyPage> {
                       height: 150,
                       width: 16,
                       decoration: BoxDecoration(
-                          color: Colors.red,
-                          border: Border.all(color: Colors.red)),
+                        color: Colors.red,
+                        border: Border.all(color: Colors.red),
+                        borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(10),
+                          bottomLeft: Radius.circular(10),
+                        ),
+                      ),
                       child: Center(
                         child: RotatedBox(
                           quarterTurns: 3,
@@ -167,6 +190,10 @@ class _PointRummyPageState extends State<PointRummyPage> {
                       decoration: BoxDecoration(
                         color: Colors.grey,
                         border: Border.all(color: Colors.red, width: 4),
+                        borderRadius: BorderRadius.only(
+                          topRight: Radius.circular(10),
+                          bottomRight: Radius.circular(10),
+                        ),
                       ),
                       child: Center(
                         child: Text(
