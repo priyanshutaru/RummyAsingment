@@ -47,39 +47,27 @@ class _TabScreenState extends State<TabScreen> {
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(20),
                             color: Colors.red),
-                        child: Column(
-                          children: [
-                            TabBar(
-                              indicator: BoxDecoration(
-                                color: Colors.red[800],
-                                borderRadius: BorderRadius.circular(20),
-                              ),
-                              labelColor: Colors.black,
-                              dividerColor: Colors.black,
-                              // ignore: prefer_const_literals_to_create_immutables
-                              tabs: [
-                                Tab(
-                                  text: "Point Rummy",
-                                ),
-                                Tab(
-                                  text: "Pool Rummy",
-                                ),
-                                Tab(
-                                  text: "Deal Rummy",
-                                ),
-                                Tab(
-                                  text: "Rummy Tounament",
-                                ),
-                              ],
+                        child: TabBar(
+                          indicator: BoxDecoration(
+                            color: Colors.red[800],
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          labelColor: Colors.black,
+                          dividerColor: Colors.black,
+                          // ignore: prefer_const_literals_to_create_immutables
+                          tabs: [
+                            Tab(
+                              text: "Point Rummy",
                             ),
-                            // SizedBox(
-                            //   height: 10,
-                            // ),
-                            // Container(
-                            //   height: 10,
-                            //   width: 200,
-                            //   color: Colors.red,
-                            // ),
+                            Tab(
+                              text: "Pool Rummy",
+                            ),
+                            Tab(
+                              text: "Deal Rummy",
+                            ),
+                            Tab(
+                              text: "Rummy Tounament",
+                            ),
                           ],
                         ),
                       ),
