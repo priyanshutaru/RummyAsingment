@@ -1,4 +1,7 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
+import 'package:rummyclone/utils/prizecard.dart';
 
 class DealRummyPage extends StatefulWidget {
   const DealRummyPage({super.key});
@@ -10,11 +13,14 @@ class DealRummyPage extends StatefulWidget {
 class _DealRummyPageState extends State<DealRummyPage> {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Text(
-        "This is deal Rummy",
-        style: TextStyle(fontSize: 20, color: Colors.black),
-      ),
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceAround,
+      // ignore: prefer_const_literals_to_create_immutables
+      children: [
+        PrizeCard(),
+        PrizeCard(),
+        PrizeCard(),
+      ],
     );
   }
 }

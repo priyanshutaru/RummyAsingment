@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rummyclone/utils/prizecard.dart';
 
 class PoolRummyPage extends StatefulWidget {
   const PoolRummyPage({super.key});
@@ -10,11 +11,14 @@ class PoolRummyPage extends StatefulWidget {
 class _PoolRummyPageState extends State<PoolRummyPage> {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Text(
-        "This is pool Rummy",
-        style: TextStyle(fontSize: 20, color: Colors.black),
-      ),
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceAround,
+      // ignore: prefer_const_literals_to_create_immutables
+      children: [
+        PrizeCard(),
+        PrizeCard(),
+        PrizeCard(),
+      ],
     );
   }
 }
