@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:rummyclone/pages/addmoney.dart';
 import 'package:rummyclone/pages/tabpages.dart';
 import './pages/homepage.dart               ';
 
@@ -32,8 +33,9 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyRummyHomePage(),
+      // home: MyRummyHomePage(),
       // home: TabScreen(),
+      home: AddMoney(),
     );
   }
 }
