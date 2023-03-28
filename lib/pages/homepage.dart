@@ -24,7 +24,8 @@ class _MyRummyHomePageState extends State<MyRummyHomePage> {
           fit: BoxFit.cover,
         ),
         Scaffold(
-          backgroundColor: Colors.white38,
+          //backgroundColor: Colors.white38,
+          backgroundColor: Colors.transparent,
           // appBar: AppBar(
           //   elevation: 0,
           //   backgroundColor: Colors.transparent,

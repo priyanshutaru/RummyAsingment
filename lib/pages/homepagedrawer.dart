@@ -29,7 +29,8 @@ class _MyRummyHomePage1State extends State<MyRummyHomePage1> {
           //   iconTheme: IconThemeData(color: Colors.black),
           // ),
           // drawer: Drawer(),
-          backgroundColor: Colors.white38,
+          // backgroundColor: Colors.white38,
+          backgroundColor: Colors.transparent,
           // appBar: AppBar(
           //   elevation: 0,
           //   backgroundColor: Colors.transparent,
