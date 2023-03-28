@@ -24,6 +24,11 @@ class _MyRummyHomePage1State extends State<MyRummyHomePage1> {
           fit: BoxFit.cover,
         ),
         Scaffold(
+          // appBar: AppBar(
+          //   toolbarHeight: 25,
+          //   iconTheme: IconThemeData(color: Colors.black),
+          // ),
+          // drawer: Drawer(),
           backgroundColor: Colors.white38,
           // appBar: AppBar(
           //   elevation: 0,
@@ -579,23 +584,383 @@ class _MyRummyHomePage1State extends State<MyRummyHomePage1> {
                 ),
               ),
               Positioned(
-                left: 320,
-                top: 320,
-                child: Container(
-                  // margin: EdgeInsets.all(20),
-                  height: 40,
-                  width: 130,
-                  decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 215, 194, 9),
-                    borderRadius: BorderRadius.circular(15),
-                  ),
-                  child: Center(
-                    child: Text(
-                      "Switch Table",
-                      style: TextStyle(
-                          color: Colors.black, fontWeight: FontWeight.bold),
+                left: 20,
+                top: 280,
+                child: Stack(
+                  children: [
+                    Container(
+                      // margin: EdgeInsets.all(20),
+                      height: 100,
+                      width: 800,
+                      decoration: BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.circular(15),
+                      ),
                     ),
-                  ),
+                    Positioned(
+                      top: 60,
+                      child: Column(
+                        // crossAxisAlignment: CrossAxisAlignment.center,
+                        // mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Container(
+                            // margin: EdgeInsets.all(20),
+                            height: 30,
+                            width: 100,
+                            // width: 800,
+                            decoration: BoxDecoration(
+                              color: Colors.yellow,
+                              borderRadius: BorderRadius.circular(15),
+                            ),
+                            child: Center(
+                              child: Text(
+                                "Group",
+                                style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Positioned(
+                      left: 145,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 215, 194, 9),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 165,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 16, 215, 9),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 185,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 215, 194, 9),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 205,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 16, 215, 9),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 235,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 215, 9, 153),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 145,
+                      top: 80,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 20,
+                        width: 135,
+                        // width: 800,
+                        decoration: BoxDecoration(
+                          color: Colors.green,
+                          borderRadius: BorderRadius.circular(5),
+                        ),
+                        child: Center(
+                          child: Text(
+                            "Valid",
+                            style: TextStyle(
+                                color: Colors.black,
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                      ),
+                    ),
+                    //second card stack
+
+                    Positioned(
+                      left: 305,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 23, 9, 215),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 325,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 9, 215, 191),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 345,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 215, 194, 9),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 365,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 16, 215, 9),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 385,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 215, 194, 9),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 300,
+                      top: 80,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 20,
+                        width: 125,
+                        // width: 800,
+                        decoration: BoxDecoration(
+                          color: Colors.red,
+                          borderRadius: BorderRadius.circular(5),
+                        ),
+                        child: Center(
+                          child: Text(
+                            "Invalid",
+                            style: TextStyle(
+                                color: Colors.black,
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                      ),
+                    ),
+
+                    // third stack card
+
+                    Positioned(
+                      left: 453,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 23, 9, 215),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 473,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 9, 215, 191),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 493,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 215, 194, 9),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 513,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 16, 215, 9),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 533,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 215, 194, 9),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 450,
+                      top: 80,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 20,
+                        width: 125,
+                        // width: 800,
+                        decoration: BoxDecoration(
+                          color: Colors.red,
+                          borderRadius: BorderRadius.circular(5),
+                        ),
+                        child: Center(
+                          child: Text(
+                            "Invalid",
+                            style: TextStyle(
+                                color: Colors.black,
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                      ),
+                    ),
+
+                    // fourth card stack
+
+                    Positioned(
+                      left: 600,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 23, 9, 215),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 620,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 9, 215, 191),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 640,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 215, 194, 9),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 660,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 16, 215, 9),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 680,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 80,
+                        width: 40,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 215, 194, 9),
+                          // borderRadius: BorderRadius.circular(15),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 600,
+                      top: 80,
+                      child: Container(
+                        // margin: EdgeInsets.all(20),
+                        height: 20,
+                        width: 125,
+                        // width: 800,
+                        decoration: BoxDecoration(
+                          color: Colors.red,
+                          borderRadius: BorderRadius.circular(5),
+                        ),
+                        child: Center(
+                          child: Text(
+                            "Invalid",
+                            style: TextStyle(
+                                color: Colors.black,
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
               )
             ],
