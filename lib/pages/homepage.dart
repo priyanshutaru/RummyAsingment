@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:rummyclone/pages/drawer.dart';
 
 import '../utils/opositeuserpoint.dart';
 import '../utils/userpoint.dart';
@@ -26,6 +27,13 @@ class _MyRummyHomePageState extends State<MyRummyHomePage> {
         Scaffold(
           //backgroundColor: Colors.white38,
           backgroundColor: Colors.transparent,
+          appBar: AppBar(
+            backgroundColor: Colors.transparent,
+            elevation: 0,
+            toolbarHeight: 30,
+            iconTheme: IconThemeData(color: Colors.black),
+          ),
+          drawer: RummyDrawer(),
           // appBar: AppBar(
           //   elevation: 0,
           //   backgroundColor: Colors.transparent,
@@ -77,38 +85,47 @@ class _MyRummyHomePageState extends State<MyRummyHomePage> {
             children: [
               Column(
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      CircleAvatar(
-                        backgroundColor: Colors.black26,
-                        radius: 15,
-                        child: Icon(
-                          Icons.arrow_back,
-                          color: Colors.black,
-                          size: 20,
+                  Padding(
+                    padding: const EdgeInsets.only(top: 10),
+                    child: Row(
+                      // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        SizedBox(
+                          width: 12,
                         ),
-                      ),
-                      Container(
-                        height: 25,
-                        width: 100,
-                        decoration: BoxDecoration(
-                            border: Border.all(color: Colors.black12, width: 0),
-                            borderRadius: BorderRadius.circular(10),
-                            color: Colors.white),
-                        child: Center(
-                          child: Text(
-                            "Per Print 30.0",
-                            style: TextStyle(color: Colors.black),
+                        CircleAvatar(
+                          backgroundColor: Colors.black26,
+                          radius: 15,
+                          child: Icon(
+                            Icons.arrow_back,
+                            color: Colors.black,
+                            size: 20,
                           ),
                         ),
-                      )
-                    ],
+                        Spacer(),
+                        Container(
+                          height: 25,
+                          width: 100,
+                          decoration: BoxDecoration(
+                              border:
+                                  Border.all(color: Colors.black12, width: 0),
+                              borderRadius: BorderRadius.circular(10),
+                              color: Colors.white),
+                          child: Center(
+                            child: Text(
+                              "Per Print 30.0",
+                              style: TextStyle(color: Colors.black),
+                            ),
+                          ),
+                        )
+                      ],
+                    ),
                   ),
                 ],
               ),
               Positioned(
-                top: 75,
+                left: 13,
+                top: 85,
                 child: Column(
                   children: [
                     Row(
@@ -124,7 +141,7 @@ class _MyRummyHomePageState extends State<MyRummyHomePage> {
                           ),
                         ),
                         SizedBox(
-                          width: 720,
+                          width: 700,
                         ),
                         CircleAvatar(
                           backgroundColor: Colors.black26,
@@ -141,7 +158,8 @@ class _MyRummyHomePageState extends State<MyRummyHomePage> {
                 ),
               ),
               Positioned(
-                top: 35,
+                left: 13,
+                top: 45,
                 child: Column(
                   children: [
                     Row(
@@ -157,7 +175,7 @@ class _MyRummyHomePageState extends State<MyRummyHomePage> {
                           ),
                         ),
                         SizedBox(
-                          width: 720,
+                          width: 700,
                         ),
                         CircleAvatar(
                           backgroundColor: Colors.black26,
@@ -179,7 +197,7 @@ class _MyRummyHomePageState extends State<MyRummyHomePage> {
                 child: Column(
                   children: [
                     Container(
-                      height: 250,
+                      height: 230,
                       width: 600,
                       decoration: BoxDecoration(
                         // color: Colors.red,
@@ -581,7 +599,7 @@ class _MyRummyHomePageState extends State<MyRummyHomePage> {
               ),
               Positioned(
                 left: 320,
-                top: 320,
+                top: 285,
                 child: Container(
                   // margin: EdgeInsets.all(20),
                   height: 40,
