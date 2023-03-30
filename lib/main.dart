@@ -38,14 +38,14 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyRummyHomePage(),
+      // home: MyRummyHomePage(),
       // home: TabScreen(),
       // home: AddMoney(),
       // home: HowToPlay(),
       // home: DropPage(),
       // home: MyRummyHomePage1(),
-      //home: UserRegisterPage(),]
-      // home: UserLoginPage(),
+      // home: UserRegisterPage(),
+      home: UserLoginPage(),
     );
   }
 }
