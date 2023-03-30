@@ -22,7 +22,10 @@ class _RummysettingsPageState extends State<RummysettingsPage> {
         ),
         Scaffold(
           backgroundColor: Colors.transparent,
-          appBar: AppBar(),
+          appBar: AppBar(
+            toolbarHeight: 30,
+            backgroundColor: Colors.transparent,
+          ),
           body: Stack(
             // ignore: prefer_const_literals_to_create_immutables
             children: [
@@ -32,15 +35,7 @@ class _RummysettingsPageState extends State<RummysettingsPage> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     // ignore: prefer_const_literals_to_create_immutables
                     children: [
-                      CircleAvatar(
-                        backgroundColor: Colors.black26,
-                        radius: 15,
-                        child: Icon(
-                          Icons.arrow_back,
-                          color: Colors.black,
-                          size: 20,
-                        ),
-                      ),
+                      Text(""),
                       // Container(
                       //   height: 25,
                       //   width: 100,
@@ -61,9 +56,9 @@ class _RummysettingsPageState extends State<RummysettingsPage> {
               ),
               Positioned(
                 left: 150,
-                top: 50,
+                top: 15,
                 child: Container(
-                  height: 330,
+                  // height: 330,
                   width: 500,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(30),
@@ -189,6 +184,9 @@ class _RummysettingsPageState extends State<RummysettingsPage> {
                             ),
                           ),
                         ),
+                        SizedBox(
+                          height: 10,
+                        ),
                       ],
                     ),
                   ),
@@ -196,7 +194,7 @@ class _RummysettingsPageState extends State<RummysettingsPage> {
               ),
               Positioned(
                 left: 300,
-                top: 30,
+                top: 0,
                 child: Container(
                   height: 50,
                   width: 200,
