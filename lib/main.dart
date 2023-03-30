@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:rummyclone/auth/login.dart';
+import 'package:rummyclone/auth/register.dart';
 import 'package:rummyclone/pages/addmoney.dart';
 import 'package:rummyclone/pages/drop.dart';
 import 'package:rummyclone/pages/homepagedrawer.dart';
@@ -41,7 +43,9 @@ class MyApp extends StatelessWidget {
       // home: AddMoney(),
       // home: HowToPlay(),
       // home: DropPage(),
-      //  home: MyRummyHomePage1(),
+      // home: MyRummyHomePage1(),
+      //home: UserRegisterPage(),]
+      // home: UserLoginPage(),
     );
   }
 }
